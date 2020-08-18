@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/bookmark-icon/time-counter.svg">
+    <title>Countdown timer</title>
+    <!-- Google fonts import - Dancing Script  and Montserat-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;562;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/ac750a2c2d.js" crossorigin="anonymous"></script>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+
+<body>
+    <!-- Main content -->
+    <div class="counter-app">
+        <!-- Settings content -->
+        <div class="settings">
+            <h1 class="settings-title">Settings</h1>
+
+            <label for="event-name">Event name:</label>
+            <input type="text" id="event-name" value="Happy New Year!! :)"></input>
+
+            <table class="date">
+                <tbody>
+                    <tr>
+                        <td><label for="event-day">Day:</label></td>
+                        <td><label for="event-month">Month:</label></td>
+                        <td><label for="event-year">Year:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="event-day" maxlength="2" min="1" max="31" value="31"></td>
+                        <td><input type="number" id="event-month" maxlength="2" min="1" max="12" value="12"></td>
+                        <td><input type="number" id="event-year" maxlength="4" value="2020"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <label for="event-image">Link to the image:</label>
+            <input type="text" id="event-image" value="./images/main-image/default.jpg">
+            <button class="save">Save</button>
+        </div>
+        <!-- App body -->
+        <div class="app-body">
+            <div class="image-section">
+                <div class="settings-btn">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+            </div>
+            <!-- Body of app content -->
+            <div class="time-section">
+                <h2 class="time-title">
+                    <span class="event"></span> in:
+                </h2>
+                <div class="time-cards">
+                    <div class="card">
+                        <p class="days-count number">1</p>
+                        <p class="card-title days">Days</p>
+                    </div>
+                    <div class="card">
+                        <p class="hours-count number">1</p>
+                        <p class="card-title hours">hours</p>
+                    </div>
+                    <div class="card">
+                        <p class="minutes-count number">1</p>
+                        <p class="card-title minutes">Minutes</p>
+                    </div>
+                    <div class="card">
+                        <p class="seconds-count number">1</p>
+                        <p class="card-title seconds">seconds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
