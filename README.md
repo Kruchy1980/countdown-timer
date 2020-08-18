@@ -18,3 +18,6 @@ Prosty projekt, który odlicza czas do ustawionej przez użytkownika daty oraz u
 4. Datę należy ustawić zgodnie z oznaczeniami
 5. Link do obrazu - w tym miejscu możemy wpisać odpowiednią ścieżkę do linku - względną lub bezwzględną, ale musi być poprawna - domyślnie jest to obraz ze znakami zapytania
 6. Po zapisaniu ustawiamy dane i zaczynamy odliczać czas do nowego zdarzenia -> okno ustawień zamyka się po ponownym kliknięciu w ikonę ustawień znajdującą się w prwym górnym rogu obrazka.
+
+### URL of project
+_https://kruchy1980.github.io/countdown-timer/_
